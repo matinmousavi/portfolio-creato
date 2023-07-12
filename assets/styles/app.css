@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto";
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+/* Reset css */
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 114rem;
+  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
